@@ -4,20 +4,20 @@ const elements = [
   {
     id: "1",
     type: "input", // input node
-    data: { label: "Input Node" },
+    data: { label: "Start Node" },
     position: { x: 250, y: 25 },
   },
   // default node
   {
     id: "2",
     // you can also pass a React component as a label
-    data: { label: <div>Default Node</div> },
+    data: { label: <div>Middle Node</div> },
     position: { x: 100, y: 125 },
   },
   {
     id: "3",
     type: "output", // output node
-    data: { label: "Output Node" },
+    data: { label: "End node" },
     position: { x: 250, y: 250 },
   },
   // animated edge
