@@ -1,5 +1,6 @@
 {
   "name": "flowtest",
+  "homepage": "http://tompbsmith.com/flow",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
